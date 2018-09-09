@@ -9,7 +9,7 @@ N.B. The source code itself is not a functioning program.
 The model itself is described in detail in an scientific article:
 Honkaniemi, J., Ojansuu, R., Kasanen, R., & Heliövaara, K. 2018. Interaction of disturbance agents on Norway spruce: a mechanistic model of bark beetle dynamics integrated in simulation framework WINDROT. in press Ecological Modelling.
 
-BBDYN_module.for includes
+BBDYN_module.for includes:
 
 subroutine bbdyn : the main subroutine that is called by the WINDROT framework connecting the forest dynamics and disturbance models together
 subroutine bbredistri : redistributes the bark beetles from their initial landing coordinates to nearby trees
